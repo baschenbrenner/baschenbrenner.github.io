@@ -18,8 +18,9 @@ img.verif_img {
 /********** Global **********/
 
 body {
-	background: url(../images/wood.jpg);
-	background-repeat: y;
+	/*background: url(../images/wood.jpg);*/
+	/*background-repeat: y;*/
+	background-color: #d896ff;
 
 }
 
