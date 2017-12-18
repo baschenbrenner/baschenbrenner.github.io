@@ -191,13 +191,13 @@ iframe {
 	#logo {
 		padding: 85px 0 25px;
 		/* gradient */
-		background: rgb(229,229,229); /* Old browsers */
-		background: -moz-linear-gradient(top,  rgba(229,229,229,1) 0%, rgba(255,255,255,1) 99%); /* FF3.6+ */
-		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(229,229,229,1)), color-stop(99%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
-		background: -webkit-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* Chrome10+,Safari5.1+ */
-		background: -o-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* Opera 11.10+ */
-		background: -ms-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* IE10+ */
-		background: linear-gradient(to bottom,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* W3C */
+		background: rgb(128,0,128); /* Old browsers */
+		background: -moz-linear-gradient(top,  rgba(128,0,128,1) 0%, rgba(216,191,216,1) 99%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(128,0,128,1)), color-stop(99%,rgba(216,191,216,1))); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  rgba(128,0,128,1) 0%,rgba(216,191,216,1) 99%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  rgba(128,0,128,1) 0%,rgba(216,191,216,1) 99%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  rgba(128,0,128,1) 0%,rgba(216,191,216,1) 99%); /* IE10+ */
+		background: linear-gradient(to bottom,  rgba(128,0,128,1) 0%,rgba(216,191,216,1) 99%); /* W3C */
 	}
 
 		#logo h1 {
@@ -205,13 +205,15 @@ iframe {
 			padding-top: 20px;
 			display: inline-block;
 			font-family: 'Clicker Script', cursive;
-			background-color: #660066;
+			
 		}
 
 		#logo h2 {
 			margin:0;
+			padding-top: 20px;
 			display: inline-block;
 			font-family: 'Elsie Swash Caps', cursive;
+			
 		}
 
 /********** Social Bar **********/
