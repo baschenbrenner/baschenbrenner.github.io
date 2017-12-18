@@ -109,7 +109,8 @@ iframe {
 }
 
 .wrapper {
-	width: 960px;
+	right: 10px;
+	width: 80%;
 	margin: 0 auto;
 }
 
@@ -141,14 +142,15 @@ iframe {
 
 	/********** Nav Bar **********/
 
-	#nav_bar {
-		position: relative;
-		top: 10%;
-		left: 10%;
+	.navbar {
+		position: fixed;
+		top: 100px;
+		left: 20px;
 		width: 20%;
 		z-index: 1;
 		border-bottom: 1px solid #ccc;
 		text-align: center;
+		color: rgb(128,0,128);
 	}
 
 	#nav_bar nav {
