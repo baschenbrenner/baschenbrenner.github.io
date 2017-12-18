@@ -60,12 +60,19 @@ figcaption {
 		color: rgb(128,0,128);
 	}
 
+.iframe {
+	border: 0;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	float: right;
+}
 
 .wrapper {
 	position: fixed;
 	top: 200px;
 	right: 10px;
-	width: 200px;
+	width: 800px;
 	margin: 0 auto;
 }
 

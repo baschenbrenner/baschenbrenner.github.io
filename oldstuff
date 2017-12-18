@@ -183,13 +183,7 @@ input.verif_box {
 	margin-right: 5px;
 }
 
-iframe {
-	border: 0;
-	padding: 0;
-	margin: 0;
-	overflow: hidden;
-	height: 353px;
-}
+
 
 table {
 	margin: 0 0 20px;
