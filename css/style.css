@@ -310,7 +310,7 @@ footer {
 
 /* COlUMNS */
 .col-1{
-	float:left;
+	float:right;
 	width:32%;
 	margin-left:2%;
 }
