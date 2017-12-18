@@ -46,3 +46,196 @@
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 				</section>
 				<!--/////////// Ends Deals //////////-->
+
+
+
+	<!--/////////// Nav Bar //////////-->
+			<div id="nav_bar" class="col-1">
+			
+					<nav>
+						<a href="#">About</a><br/><a class="selected" href="#">Counseling</a><br/><a href="#">Reiki</a><br/><a href="#">Workshops</a><br/><a href="#">Contact</a>
+					</nav>
+				
+			</div>
+			<!--/////////// Ends Nav Bar //////////-->
+
+
+
+
+OLD CSS
+
+
+.col-2{
+	float:left;
+	width:66%;
+
+}
+
+.showsup{
+
+	padding: 10px 0;
+}
+
+.first{
+	margin-left:0;
+}
+
+
+
+/********** Details **********/
+
+#details {
+	clear:both;
+	padding: 20px 10px;
+	/* gradient */
+	background: rgb(229,229,229); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(229,229,229,1) 0%, rgba(255,255,255,1) 99%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(229,229,229,1)), color-stop(99%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* W3C */
+}
+
+	#details a:link, #details a:visited {
+		color: black;
+		text-decoration: none;
+	}
+
+	#details a:hover, #details a:active {
+		text-decoration: underline;
+	}
+	
+	
+/********** Content Area **********/
+
+#wood {
+	background-image: url(../images/wood.jpg), url(../images/wood_slice.jpg);
+	background-position: center top, left top;
+	background-repeat: no-repeat, repeat-y;
+	padding: 30px 0;
+}
+
+
+/********** Header **********/
+
+	/********** Nav Bar **********/
+
+
+
+	#nav_bar nav {
+		border-left: 1px solid #ccc;
+	}
+
+		#nav_bar nav a {
+			display: inline-block;
+			width: 10%;
+			margin: 0;
+			padding: 22px 0;
+			text-transform: uppercase;
+			color: black;
+			text-align: center;
+			border-right: 1px solid #ccc;
+			text-decoration: none;
+			font: 20px "Trebuchet MS", Arial, sans-serif;
+		}
+
+		#nav_bar nav a.selected {
+			background: black;
+			color: white;
+		}
+
+		#nav_bar nav a:hover {
+			color:white;
+			/* gradient */
+			background: rgb(0,0,0); /* Old browsers */
+			background: -moz-linear-gradient(top,  rgba(0,0,0,1) 0%, rgba(71,71,71,1) 28%, rgba(81,81,81,1) 35%, rgba(71,71,71,1) 72%, rgba(43,43,43,1) 87%, rgba(28,28,28,1) 91%, rgba(0,0,0,1) 100%); /* FF3.6+ */
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,1)), color-stop(28%,rgba(71,71,71,1)), color-stop(35%,rgba(81,81,81,1)), color-stop(72%,rgba(71,71,71,1)), color-stop(87%,rgba(43,43,43,1)), color-stop(91%,rgba(28,28,28,1)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
+			background: -webkit-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(71,71,71,1) 28%,rgba(81,81,81,1) 35%,rgba(71,71,71,1) 72%,rgba(43,43,43,1) 87%,rgba(28,28,28,1) 91%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+			background: -o-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(71,71,71,1) 28%,rgba(81,81,81,1) 35%,rgba(71,71,71,1) 72%,rgba(43,43,43,1) 87%,rgba(28,28,28,1) 91%,rgba(0,0,0,1) 100%); /* Opera 11.10+ */
+			background: -ms-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(71,71,71,1) 28%,rgba(81,81,81,1) 35%,rgba(71,71,71,1) 72%,rgba(43,43,43,1) 87%,rgba(28,28,28,1) 91%,rgba(0,0,0,1) 100%); /* IE10+ */
+			background: linear-gradient(to bottom,  rgba(0,0,0,1) 0%,rgba(71,71,71,1) 28%,rgba(81,81,81,1) 35%,rgba(71,71,71,1) 72%,rgba(43,43,43,1) 87%,rgba(28,28,28,1) 91%,rgba(0,0,0,1) 100%); /* W3C */
+		}
+
+
+
+.shadow {
+	box-shadow: 0 3px 10px #333;
+}
+
+
+.border_right {
+	border-right: 1px dotted #ccc;
+	padding-right: 20px;
+}
+
+.thumbs_up {
+	background: white url(../images/thumbs_up.jpg) no-repeat top right;
+}
+
+.contact_form {
+	height: 415px;
+}
+
+input.verif_box {
+	display: inline-block;
+	width: 80%;
+	margin-right: 5px;
+}
+
+iframe {
+	border: 0;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	height: 353px;
+}
+
+table {
+	margin: 0 0 20px;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+}
+
+tr:nth-child(even) {
+	background: #efefef;
+}
+
+th, td {
+	padding: 10px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+th {
+	background: #555;
+	color: white;
+}
+
+input, textarea {
+	display: block;
+	width: 100%;
+	padding: 5px;
+	margin-bottom: 5px;
+	box-shadow: 0 3px 5px #ccc;
+	border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+	margin-top: 5px;
+	width: 100px;
+	background: black;
+	color: white;
+	border-radius: 25px;
+	border: 0;
+}
+
+input[type="submit"]:hover {
+	background: #555;
+}
+
+
+img, video, audio, iframe, table, form {
+	width:100%; /* IE */
+	max-width: 100%; /* FF, Safari, Chrome */
+}
