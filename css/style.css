@@ -142,12 +142,11 @@ iframe {
 	/********** Nav Bar **********/
 
 	#nav_bar {
-		position: fixed;
-		top: 0;
-		left: 0;
-		width: 100%;
+		position: relative;
+		top: 10%;
+		left: 10%;
+		width: 20%;
 		z-index: 1;
-		background: url(../images/header-fade.gif);
 		border-bottom: 1px solid #ccc;
 		text-align: center;
 	}
@@ -312,7 +311,7 @@ footer {
 
 /* COlUMNS */
 .col-1{
-	float:right;
+	float:left;
 	width:32%;
 	margin-left:2%;
 }
