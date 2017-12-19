@@ -49,11 +49,8 @@ figcaption {
 }
 
 	.navbar {
-		position: fixed;
-		top: 250px;
-		left: 20px;
-		height: 200px;
-		width: 100px;
+		position: relative;
+		
 		z-index: 1;
 		border-bottom: 1px solid #ccc;
 		text-align: center;
@@ -69,15 +66,14 @@ figcaption {
 }
 
 .wrapper {
-	position: fixed;
-	top: 200px;
-	right: 10px;
-	width: 800px;
+	position: relative;
+	float: right;
+	
 	margin: 0 auto;
 }
 
 .milk_text {
-	font: bold 42px 'Elsie Swash Caps', cursive;
+	font: bold 22px 'Elsie Swash Caps', cursive;
 	color: white;
 	text-shadow: 0 2px 3px #000;
 	margin: 0 0 10px;
